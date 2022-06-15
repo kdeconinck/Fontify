@@ -27,6 +27,7 @@
 #![warn(missing_docs)]
 #![warn(missing_copy_implementations)]
 #![warn(missing_debug_implementations)]
+#![no_std]
 
 /// The errors that can occur while parsing an OpenType font.
 enum OtfParseError {
