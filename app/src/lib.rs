@@ -27,3 +27,9 @@
 #![warn(missing_docs)]
 #![warn(missing_copy_implementations)]
 #![warn(missing_debug_implementations)]
+
+/// The errors that can occur while parsing an OpenType font.
+enum OtfParseError {
+    /// Not enough data was provided to parse the OpenType font.
+    UnexpectedEOF,
+}
