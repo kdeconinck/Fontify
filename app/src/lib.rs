@@ -23,3 +23,7 @@
 // =                OTHER DEALINGS IN THE SOFTWARE.
 // =====================================================================================================================
 //! Fontify - A  high level, OpenType font parser.
+#![deny(unsafe_code)]
+#![warn(missing_docs)]
+#![warn(missing_copy_implementations)]
+#![warn(missing_debug_implementations)]
