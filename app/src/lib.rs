@@ -34,3 +34,21 @@ enum OtfParseError {
     /// Not enough data was provided to parse the OpenType font.
     UnexpectedEOF,
 }
+
+/// An OpenType font (OTF).
+struct OpenTypeFont {
+    // TODO: Implement the fields of this struct.
+}
+
+impl OpenTypeFont {
+    /// Create an OpenTypeFont object from data.
+    fn parse(data: &[u8]) -> Result<Self, OtfParseError> {
+        todo!()
+    }
+}
+
+/// QA: Verify that the code in this file is implemented correctly.
+#[cfg(test)]
+mod tests {
+    use super::*;
+}
